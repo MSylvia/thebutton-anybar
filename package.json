@@ -1,0 +1,30 @@
+{
+  "name": "thebutton-anybar",
+  "version": "0.0.0",
+  "description": "View the state of /r/thebutton on the menubar using AnyButton",
+  "main": "server.js",
+  "dependencies": {
+    "anybar": "^1.0.0",
+    "websocket": "^1.0.18",
+    "xmlhttprequest": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MSylvia/thebutton-anybar"
+  },
+  "keywords": [
+    "thebutton",
+    "hue"
+  ],
+  "author": "Matt Sylvia <msylvia@nukefile.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MSylvia/thebutton-anybar/issues"
+  },
+  "homepage": "https://github.com/MSylvia/thebutton-anybar"
+}
